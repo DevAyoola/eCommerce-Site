@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Smart Goodies</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="assets/bootstrap-5.2.3/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/owl-nav.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<script defer src="assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script defer type="module" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<header>
+				<nav
+					class="navbar nav1 navbar-expand-lg fixed-top pt-2 pb-2 px-2"
+				>
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">
+							<h1>Smart Goodies</h1>
+						</a>
+						<div>
+							<ul class="navbar-nav ms-auto top">
+								<li class="nav-item home-nav pe-1">
+									<button class="nav-link btn login-form-btn"><span class="login-text">Login</span>&nbsp;&nbsp;<span class="material-icons">login</span></button>
+								</li>
+								<li class="nav-item login-nav hidden pe-1">
+									<button class="nav-link btn logout-btn"><span class="logout-text">Logout</span>&nbsp;&nbsp;<span class="material-icons">logout</span></button>
+								</li>
+								<li class="nav-item home-nav pe-1">
+									<button class="nav-link btn signup-form-btn"><span class="signup-text">Sign Up</span>&nbsp;&nbsp;<span class="material-icons">person_add</span></button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<nav class="navbar nav2 navbar-expand-lg fixed-top ms-auto">
+					<button
+						class="navbar-toggler text-light mx-2 my-1"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="material-icons">menu</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<span class="tg"></span>
+						<ul class="navbar-nav m-auto px-3">
+							<li class="nav-item login-nav welcome mt-2 me-auto hidden">
+								<span class="d-block">Welcome back!</span>
+							</li>&nbsp;
+							<li class="nav-item active login-nav hidden">
+								<a class="nav-link" href="#suits">Suits</a>
+							</li>&nbsp;
+							<li class="nav-item login-nav hidden">
+								<a class="nav-link" href="#ties">Ties</a>
+							</li>&nbsp;
+							<li class="nav-item login-nav hidden">
+								<a class="nav-link" href="#briefcases">Briefcases</a>
+							</li>&nbsp;
+							<li class="nav-item login-nav hidden">
+								<a class="nav-link" href="#belts">Belts</a>
+							</li>&nbsp;
+							<li class="nav-item home-nav m-auto ms-0 p-0">
+								<a class="nav-link" href="#">Home</a>
+							</li>&nbsp;
+							<li class="nav-item home-nav m-auto ms-0 me-0">
+								<a class="nav-link" href="#products">Products</a>
+							</li>&nbsp;
+							<li class="nav-item home-nav m-auto ms-0 me-0">
+								<a class="nav-link" href="#about">About Us</a>
+							</li>&nbsp;
+							<li class="nav-item home-nav m-auto ms-0">
+								<a class="nav-link" href="#contact">Contact Us</a>
+							</li>&nbsp;
+							<li class="nav-item login-nav me-auto mt-2 hidden">
+								<a class="nav-link btn cart-display d-inline">
+									<span class="cart-text">Cart&nbsp;&nbsp;</span>
+									<span class="material-icons cart-arrow hidden">arrow_back</span>
+									<span class="material-icons">shopping_cart_checkout</span>
+								</a>
+							</li>
+						</ul>
+					</div>			
+				</nav>
+				<div class="container-fluid hero">
+					<div class="row">
+						<div class="col-md-6 col-lg-6 col-sm-12 hero-side-l py-5 ps-5 pe-4">
+							<h1>Smart Goodies</h1>
+							<p>
+								Smart Goodies is a quaint and stylish boutique nestled in the
+								heart of the bustling city, dedicated exclusively to men's suits,
+								ties, belts and briefcases. Smart Goodies has become a community
+								hub for hat and tie enthusiasts, hosting events such as styling
+								workshops, and seasonal fashion previews.
+							</p>
+							<a class="btn btn-lg fs-5" type="button" href="#about">
+								Learn More
+							</a>
+						</div>
+						<div
+							class="col-md-6 col-lg-6 col-sm-12 hero-side-r p-5 me-auto"
+						>
+							<img src="/assets/img/men.png" class="img-fluid rounded-2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<br /><br />
+		<div class="login-sect hidden"></div>
+		<div class="signup-sect hidden"></div>
+		<div class="container products-content px-5 hidden">
+			<div class="row pb-4" id="suits"><h3>Suits</h3></div>
+			<div class="row products-sect">	
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/suits1.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Single-Breasted Suit</h5>
+							<div class="position-relative">
+							<div class="position-absolute left product-price"> 
+								$480
+							</div> 
+							<div class="position-absolute right"> 
+								<button class="btn cart-btn">
+									<span class="material-icons me-0">
+										shopping_cart_checkout
+									</span>
+								</button> 
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/suits2.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Double-Breasted Suit</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1000
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/suits4.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Tuxedo Suits</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1200
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-4 pb-4" id="ties"><h3>Ties</h3></div>
+			<div class="row products-sect">	
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/ties1.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Italian Tie</h5>
+							<div class="position-relative">
+							<div class="position-absolute left product-price"> 
+								$500
+							</div> 
+							<div class="position-absolute right"> 
+								<button class="btn cart-btn">
+									<span class="material-icons me-0">
+										shopping_cart_checkout
+									</span>
+								</button> 
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/ties2.webp" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Russ Tie</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$500
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/ties3.jpeg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Maxim Tie</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$550
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-4 pb-4" id="briefcases"><h3>Briefcases</h3></div>
+			<div class="row products-sect">	
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/briefcases1.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Model Briefcase</h5>
+							<div class="position-relative">
+							<div class="position-absolute left product-price"> 
+								$1000
+							</div> 
+							<div class="position-absolute right"> 
+								<button class="btn cart-btn">
+									<span class="material-icons me-0">
+										shopping_cart_checkout
+									</span>
+								</button> 
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/briefcases2.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Office Briefcase</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1000
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/briefcases3.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Travel Briefcase</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1299
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-4 pb-4" id="belts"><h3>Belts</h3></div>
+			<div class="row products-sect">	
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/belts1.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Embossed Buckle Belt</h5>
+							<div class="position-relative">
+							<div class="position-absolute left product-price"> 
+								$200
+							</div> 
+							<div class="position-absolute right"> 
+								<button class="btn cart-btn">
+									<span class="material-icons me-0">
+										shopping_cart_checkout
+									</span>
+								</button> 
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/belts2.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">T-Lock Belt</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$200
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/belts4.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Single Buckle Belt</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$250
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn cart-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container cart hidden">
+			<div class="row">
+				<div class="cart-section w-100 px-3 pb-3">
+					<div><h3>Your Cart</h3></div>
+				</div><hr class="cart-seperator m-auto">
+				<div class="total d-flex pt-3 pb-4 px-4">
+					<h4>Total</h4>
+					<h5 class="total-price mt-1 ms-auto">$0</h5>&nbsp;&nbsp;
+					<button class="btn btn-buy">Buy</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container pb-5 best-selling home-view">
+			<h2 class="pb-4 text-center">Best Selling</h2>
+			<div class="row">	
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/suits4.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Tuxedo Suits</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1200
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn shop-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/briefcases2.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Office Briefcase</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$1000
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn shop-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card product">
+						<img src="assets/img/belts4.jpg" class="product-img" alt="...">
+						<div class="card-body border-top">
+							<h5 class="card-title">Single Buckle Belt</h5>
+							<div class="position-relative">
+								<div class="position-absolute left product-price"> 
+									$250
+								</div> 
+								<div class="position-absolute right"> 
+									<button class="btn shop-btn">
+										<span class="material-icons me-0">
+											shopping_cart_checkout
+										</span>
+									</button> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid showroom-pic text-center home-view">
+			<p class="fs-1 fw-bold">Place an order today!<br><button class="btn fs-4 m-auto shop-btn">Shop Now</button></p>
+		</div>
+
+		<div class="products-slider home-view" id="products">
+			<h2 class="pt-5 pb-4 text-center">Gift a Loved One</h2>
+			<div class="bd-grid owl-carousel pb-4">
+				<div class="card product">
+					<img src="assets/img/suits3.jpg" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Single-Breasted Suit</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$480.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="card product">
+					<img src="assets/img/suits4.jpg" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Double-Breasted Suit</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$1000.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card product">
+					<img src="assets/img/belts1.jpg" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Embossed Buckle Belt</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$990.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card product">
+					<img src="assets/img/ties1.jpg" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Italian Tie</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$990.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card product">
+					<img src="assets/img/ties2.webp" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Russ Tie</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$990.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card product">
+					<img src="assets/img/briefcases1.jpg" class="product-img" alt="...">
+					<div class="card-body border-top">
+						<h5 class="card-title">Model Briefcase</h5>
+						<div class="position-relative">
+						<div class="position-absolute left product-price"> 
+							$990.00
+						</div> 
+						<div class="position-absolute right"> 
+							<button class="btn shop-btn">
+								<span class="material-icons me-0">
+									shopping_cart_checkout
+								</span>
+							</button> 
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid about home-view" id="about">
+			<div class="row text-center px-5 pt-5 pb-5">
+				<h1><span class="material-symbols-outlined fs-1 fw-semibold">shoppingmode</span>&nbsp;About Us</h1>
+				<h5 class="py-1">Smart Goodies</h5>
+				<p class="fs-5">
+					Welcome to Smart Goodies, your premier destination for sophisticated men's attire and accessories. At Smart Goodies, we pride ourselves on curating a collection of suits, ties, briefcases, and belts that exude style, quality, and refinement. Whether you're dressing for success in the boardroom or preparing for a special occasion, we have the perfect ensemble to elevate your look.
+				</p>							
+			</div>
+		</div>
+
+		<div class="container-fluid contact home-view" id="contact">
+			<div class="row text-center p-5">
+				<h1>Contact Us</h1>
+				<span class="material-symbols-outlined fs-2 fw-semibold pt-3 pb-2">email</span>
+				<h6>
+					contact@smartgoodies.com
+				</h6>
+				<div class="pt-3 pb-1">
+					<img src="/assets/img/instagram.svg" height="26px" width="auto">
+				</div>
+				<h6>
+					<a>smart_goodies</a>
+				</h6>							
+			</div>
+		</div>
+
+		<footer class="text-center text-lg-start">
+			<div class="container px-4 pt-5 pb-3">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 footer-about">
+						<h5 class="text-uppercase">Smart Goodies</h5>
+						<p class="pe-5">
+							Smart Goodies is a quaint and stylish boutique nestled in the
+							heart of the bustling city, dedicated exclusively to men's hats,
+							ties, belts and briefcases. Smart Goodies has become a community
+							hub for hat and tie enthusiasts, hosting events such as styling
+							workshops, trunk shows featuring emerging designers, and seasonal
+							fashion previews.
+						</p>
+					</div>
+
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h5 class="text-uppercase pb-2">Pages</h5>
+
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#products" >Products</a>
+							</li>
+							<li>
+								<a href="#about" >About Us</a>
+							</li>
+							<li>
+								<a href="#contact" >Contact Us</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h5 class="text-uppercase pb-2">Products</h5>
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="#products" >Suits</a>
+							</li>
+							<li>
+								<a href="#products" >Ties</a>
+							</li>
+							<li>
+								<a href="#products" >Briefcases</a>
+							</li>
+							<li>
+								<a href="#products" >Belts</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2023 Copyright:
+				<a href="https://mdbootstrap.com/"
+					>SmartGoodies.com</a
+				>
+			</div>
+		</footer>
+
+		<script
+		src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+		<script src="assets/js/owl.carousel.js"></script>
+		<script>
+		$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:15,
+		nav:true,
+		items: 4,
+		autoplay:true,
+		autoplayTimeout:1500,
+		autoplayHoverPause:true,
+		responsive:{
+			0:{
+					items:1
+				},
+				574:{
+					items:2
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:3
+				},
+				1000:{
+					items:4
+				},
+			
+			}
+
+		})
+		</script>
+	</body>
+</html>

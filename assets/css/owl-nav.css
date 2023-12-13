@@ -1,0 +1,30 @@
+.owl-carousel .owl-nav button.owl-prev {
+	background: none;
+	color: #282849;
+	border: none;
+	margin-left: 5px;
+	padding: 0 !important;
+	font: inherit;
+	position: absolute;
+	top: 35%;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+	font-size: 3.5rem !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	background: none;
+	color: #282849;
+	border: none;
+	margin-right: 5px;
+	padding: 0 !important;
+	font: inherit;
+	position: absolute;
+	right: 0px;
+	top: 35%;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+	font-size: 3.5rem !important;
+}

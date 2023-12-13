@@ -1,0 +1,81 @@
+.nav1 {
+	background-color: #f1f3f4;
+}
+
+.nav1 .navbar-brand h2 {
+	display: inline;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+}
+
+.btnSearch {
+	border: solid 1px #37434d;
+	color: #37434d;
+}
+
+.btnSearch:hover {
+	border: solid 1px #37434d;
+	background-color: #37434d;
+	color: white;
+}
+
+.btnSearch span,
+.nav-item span {
+	margin: 0 -3px -5px -3px;
+	overflow: hidden;
+}
+
+.nav2 {
+	background-color: #37434d;
+	color: white;
+	margin-top: 63px;
+	padding: 5px 0;
+}
+
+.nav2 ul li {
+	padding-right: 10px;
+}
+
+.nav2 ul li a,
+.nav2 .welcome {
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.nav2 ul li a:hover {
+	color: #dddde3;
+}
+
+.hero {
+	background-image: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	margin-top: 110px;
+	overflow: hidden;
+}
+
+.hero-side-l p {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+
+.hero-side-l a {
+	background-color: #f3ad2a;
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+}
+
+.hero-side-l a:hover {
+	background-color: #f3ad2a;
+	color: #37434d;
+	font-family: "Lato", sans-serif;
+}
+
+.hero-side-r {
+	text-align: center;
+	overflow: hidden;
+}
+
+.hero-side-r img {
+	max-height: 400px;
+	width: auto;
+}

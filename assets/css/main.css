@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;600;700;800&family=Dancing+Script:wght@500;600&display=swap");
+@import "header.css";
+@import "forms.css";
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+}
+
+body {
+	overflow-x: hidden !important;
+}
+
+a {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #3f4457;
+	font-family: "Poppins", sans-serif;
+}
+
+.nav1 .login-form-btn,
+.nav1 .signup-form-btn,
+.cart-display,
+.login-sect .close-login-form,
+.signup-sect .close-signup-form,
+.logout-btn {
+	border: none;
+}
+
+/* Products Section */
+
+.products-nav li {
+	padding-right: 22px;
+}
+
+.products-nav li a {
+	font-size: 18px;
+	color: #3f4457;
+}
+
+.products-nav li a:hover {
+	font-size: 18px;
+	font-weight: 500;
+	color: #282849;
+}
+
+.products-sect {
+	display: flex;
+	flex-direction: row;
+}
+
+.product-img {
+	width: 100%;
+}
+
+.product .card-body {
+	padding-bottom: 37px;
+}
+
+.product .card-body .product-price {
+	font-family: "Poppins", sans-serif;
+	font-size: 17px;
+}
+
+.cart-btn,
+.cart-remove,
+.shop-btn {
+	border: none;
+	color: #3f4457;
+}
+
+.cart-btn,
+.shop-btn {
+	margin: -10px 0 0 0;
+}
+
+.cart-btn:hover,
+.shop-btn:hover {
+	color: #282849;
+	background-color: #e7e7ea;
+}
+
+/* Cart Section */
+
+.cart-box {
+	background-color: #f3f3f8;
+	margin-top: 1rem;
+}
+
+.cart-box img {
+	width: 115px;
+	height: 115px;
+	object-fit: contain;
+}
+
+.details-box input {
+	border: 1px solid #3f4457;
+	border-width: 80%;
+	border-radius: 2px;
+	width: 2.4rem;
+}
+
+.cart-remove .btn span {
+	color: #3f4457;
+}
+
+.cart-seperator {
+	border: 1px solid #3f4457;
+	width: 96%;
+}
+
+.btn-buy {
+	background-color: #3f4457;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 7px 18px;
+	margin: -4px 0 0 0;
+}
+
+.btn-buy:hover {
+	background-color: #282849;
+	color: white;
+}
+
+/* Best-selling */
+
+.best-selling .card {
+	width: 95%;
+}
+
+/* Showroom Overlay */
+
+.showroom-pic {
+	margin: -250px 0 0 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("/assets/img/showroom.jpg");
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.showroom-pic p {
+	color: #f1c065;
+	font-family: "Dancing Script", sans-serif;
+	margin-top: 155px;
+}
+
+.showroom-pic button {
+	background-color: white;
+	color: #282849;
+	border: none;
+	border-radius: 40px;
+	font-family: "Dancing Script", sans-serif;
+	font-weight: 600;
+	padding: 5px 20px;
+	width: 240px;
+}
+
+.showroom-pic button:hover {
+	background-color: #eaa931;
+	color: white;
+	border: none;
+}
+
+.products-slider .product .card-title,
+.products-content .product .card-title,
+.best-selling .product .card-title {
+	height: 42px;
+}
+
+.about {
+	background-image: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+}
+
+.material-symbols-outlined {
+	color: #3f4457;
+	margin: 0 0 -5px 0;
+	overflow: hidden;
+}
+
+/* Footer */
+
+footer {
+	background-color: #282849;
+	font-family: "Lato", sans-serif;
+}
+
+footer h5 {
+	color: #c0c0c2;
+}
+
+footer .footer-about p {
+	color: #c3c3c4;
+	font-size: 15px;
+}
+
+.footer-links ul li {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.footer-links ul li a,
+footer .copyright {
+	color: #c3c3c4;
+}
+
+.footer-links ul li a:hover {
+	color: #a3a3a4;
+}
+
+footer .copyright a {
+	color: #eaa931;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 576px) {
+	.product {
+		margin-bottom: 28px;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	.product {
+		margin-bottom: 28px;
+	}
+}
+
+@media screen and (max-width: 976px) {
+	.cart-display {
+		padding-bottom: 24px;
+	}
+
+	.login-text,
+	.signup-text {
+		display: none;
+	}
+
+	.top {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.top .material-icons {
+		padding-right: 7px;
+	}
+}

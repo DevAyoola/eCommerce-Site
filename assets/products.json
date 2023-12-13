@@ -1,0 +1,62 @@
+{
+	"suits": [
+		"Single-Breasted Suits => Product-details // The classic single-breasted suit is known for its single row of buttons and is one of the most worn types of suit. This suit is usually seen with one button, however, it can also come with a single row of up to 3 buttons. With this suit, it's important to know the golden rule: Always leave the last button unbuttoned, if your blazer has more than one button. | Price // $100",
+
+		"Double-Breasted Suits => Product-details // The double-breasted suit comes with two parallel vertical rows of buttons, from either side of the blazer. In most cases, this suit is seen with 6 buttons, however, in rare cases, you can find it with 8 buttons in total. The minimum number of buttons you'll find is 4. Just like the single breasted-suit, it's essential to always leave the last button unbuttoned. | Price // $100",
+		"Slim Fit Suits => Product-details // As you may already tell from the name, a slim-fit suit is close-fitting and hugs your body. Of course, the fit still offers room for movement and isn't as tight as you may think. This suit is narrower around the chest and shoulders, especially on the waist, and ends with a narrow-fitted leg. This sleek fit is great for men with a thinner build or more athletic build. | Price // $100",
+
+		"Regular Fit Suits => Product-details // The regular fit or also known as the classic fit isn't too tight or loose. It provides the perfect amount of comfort, especially around the chest and shoulders The jacket is only slightly fitted and reaches the hips. The pants have a looser fit and have a straight leg opening. This suit is most likely one of the most versatile options out there and is perfect to keep in the wardrobe | Price // $100",
+
+		"tuxedo => Product-details // A classic and formal eveningwear ensemble for men, worn for special occasions and formal events. | Price // $100"
+	],
+
+	"ties": {
+		"Neckties": {
+			"=> Product-details ": "// The necktie is the most common type of tie. It is a long, narrow piece of fabric that is worn around the neck and tied in various knots. Neckties come in a variety of colors, patterns, and materials. | Price // $100"
+		},
+
+		"Italian Ties": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "Italian ties are renowned for their craftsmanship, quality materials, and stylish designs. Italy has a long-standing tradition of producing some of the finest neckties in the world, and several Italian brands are synonymous with luxury and elegance.",
+			"price": "$100"
+		},
+
+		"Uniq Bowties": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "The bowtie can be a fun alternative to the everyday tie and is a must have for truly formal events. They are extremely popular in the Southern states and therefore perfect to pair with a seersucker suit. This type of tie can be used in a variety of setting from Balls to cocktail parties to everyday wear.",
+			"price": "$100"
+		}
+	},
+
+	"belts": {
+		"Single Buckle Belts": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "As the name implies, this type of classic belt has one buckle and a strap made of leather and has black or brown colors. You can also find it in fashionable colors, such as neon, white, and gray, and in metal, plastic, or fabric materials. The strap has holes on one end to help you adjust the fit and lock the belt.",
+			"price": "$100"
+		},
+
+		"Double Buckle Belts": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "The two buckles can be placed either facing each other or on top of each other. This type of belt will give you a bohemian and trendy style. Perfect for casual, semi-casual, and formal occasions, you can wear it with your short dresses, oversize t-shirts, long skirts, and many types of t-shirts.",
+			"price": "$100"
+		},
+
+		"T-Lock Belts": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "For this classical type of belt, the steel or copper buckle is its standout feature. It has a buckle with an automatic lock with a T-shape, which means the strap has no holes. The strap is made of leather, fabric, canvas, or rubber. It's a perfect belt for a casual look that looks great on your boyfriend jeans, shorts, skirts, and oversize t-shirts.",
+			"price": "$100"
+		},
+
+		"Embossed Buckle Belts": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "TBelts with embossed alloy, brass, zinc, or stainless steel buckles are great fashion accessories for your everyday wear. Its fabric or leather strap can help enhance your long coats and loose spaghetti-strapped mini-dresses.",
+			"price": "$100"
+		},
+
+		"Jeweled Belts": {
+			"product-brief": "A classic suit known for it cuteness.",
+			"product-details": "Whether you plan to wear an elegant or plain dress or gown, jeweled buckles are great accessories! The buckles can be embellished with stones, diamonds, or metals.",
+			"price": "$100"
+		}
+	}
+}
