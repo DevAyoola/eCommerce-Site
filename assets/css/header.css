@@ -2,12 +2,6 @@
 	background-color: #f1f3f4;
 }
 
-.nav1 .navbar-brand h2 {
-	display: inline;
-	font-family: "Lato", sans-serif;
-	font-weight: 600;
-}
-
 .btnSearch {
 	border: solid 1px #37434d;
 	color: #37434d;
@@ -28,7 +22,6 @@
 .nav2 {
 	background-color: #37434d;
 	color: white;
-	margin-top: 63px;
 	padding: 5px 0;
 }
 
@@ -78,4 +71,36 @@
 .hero-side-r img {
 	max-height: 400px;
 	width: auto;
+}
+
+@media screen and (max-width: 460px) {
+	.nav2 {
+		margin-top: 50px;
+	}
+
+	.hero {
+		margin-top: 84px;
+	}
+}
+
+@media screen and (min-width: 461px) and (max-width: 577px) {
+	.nav2 {
+		margin-top: 53px;
+	}
+
+	.hero {
+		margin-top: 102px;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	.nav2 {
+		margin-top: 61px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.nav2 {
+		margin-top: 67px;
+	}
 }

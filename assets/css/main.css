@@ -17,6 +17,7 @@ body {
 a {
 	text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -146,7 +147,7 @@ h6 {
 .showroom-pic {
 	margin: -250px 0 0 0;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("/assets/img/showroom.jpg");
+		url("../img/showroom.jpg");
 	background-size: cover;
 	height: 100vh;
 	display: flex;
